@@ -30,8 +30,15 @@ img {
     background-size: 8px 8px;
 }
 
+.me-40 {
+    margin-right: 40px;
+}
+
 @media (max-width: 992px) { /* 992px is the default breakpoint for lg */
     .navbar-nav {
         align-items: center;
+    }
+    .me-40 {
+        margin-right: 0;
     }
 }
